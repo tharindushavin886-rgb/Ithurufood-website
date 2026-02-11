@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IthuruFood - Save Food, Save Money</title>
+    <meta name="description"
+        content="IthuruFood is a Sri Lankan platform helping reduce food waste by offering surplus food at affordable prices.">
+    <meta name="theme-color" content="#2ecc71">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Ithuru<span class="highlight">Food</span></div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#deals">Find Deals</a>
+            <a href="#shops">For Shops</a>
+            <a href="#contact" class="btn-nav">Contact</a>
+        </div>
+        <div class="mobile-menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="badge"> 🌱 Save the Planet, Save Your Wallet</span>
+            <h1>Surplus Food at <span class="text-orange">Affordable Prices</span></h1>
+            <p>IthuruFood connects you with local shops to buy surplus food at a discount. Save food from waste and
+                enjoy delicious meals for less.</p>
+            <div class="hero-buttons">
+                <a href="#deals" class="btn btn-primary"><i class="fa-solid fa-utensils"></i> Find Food Deals</a>
+                <a href="#shops" class="btn btn-secondary"><i class="fa-solid fa-store"></i> Add Food Deal</a>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <!-- Utilizing a placeholder or CSS art for now -->
+            <div class="food-illustration">
+                <i class="fa-solid fa-burger food-icon main-icon"></i>
+                <div class="floating-card card-1">
+                    <span>Discount</span>
+                    <strong>50% OFF</strong>
+                </div>
+                <div class="floating-card card-2">
+                    <span>Fresh</span>
+                    <strong>Tasty</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="section">
+        <div class="section-header">
+            <h2>How It Works</h2>
+            <p>Simple steps to make a big impact.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="icon-box green">
+                    <i class="fa-solid fa-store"></i>
+                </div>
+                <h3>For Shops</h3>
+                <p>Post surplus food easily, reduce waste, and earn extra income from unsold items.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box orange">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <h3>For Customers</h3>
+                <p>Find cheap food nearby, order via WhatsApp, and save money on daily meals.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box blue">
+                    <i class="fa-solid fa-earth-asia"></i>
+                </div>
+                <h3>For Environment</h3>
+                <p>Help reduce food waste in Sri Lanka and support a sustainable future.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Food Deals Section -->
+    <section id="deals" class="section bg-light">
+        <div class="section-header">
+            <h2>Today's Food Deals</h2>
+            <p>Grab them before they are gone!</p>
+        </div>
+        <div class="deals-container" id="deals-container">
+            <!-- Deals will be populated by JS -->
+        </div>
+        <div class="view-all-container">
+            <button class="btn btn-outline">View All Deals</button>
+        </div>
+    </section>
+
+    <!-- Why IthuruFood Section -->
+    <section id="why-us" class="section">
+        <div class="why-us-grid">
+            <div class="why-content">
+                <h2>Why Choose IthuruFood?</h2>
+                <ul class="benefits-list">
+                    <li><i class="fa-solid fa-check-circle"></i> <span><strong>Reduce Food Waste:</strong> Be part of
+                            the solution.</span></li>
+                    <li><i class="fa-solid fa-check-circle"></i> <span><strong>Save Money:</strong> Get high-quality
+                            food for less.</span></li>
+                    <li><i class="fa-solid fa-check-circle"></i> <span><strong>Support Local:</strong> Help local
+                            businesses thrive.</span></li>
+                </ul>
+            </div>
+            <div class="why-image">
+                <div class="stat-box">
+                    <h3>1000+</h3>
+                    <p>Meals Saved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action Section -->
+    <section id="shops" class="cta-section">
+        <div class="cta-content">
+            <h2>Are you a food shop owner?</h2>
+            <p>Don't let good food go to waste. Join us and turn surplus into earnings.</p>
+            <button class="btn btn-white">Post Your Food Deal Free</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>IthuruFood</h3>
+                <p>A Sri Lankan platform helping reduce food waste by offering surplus food at affordable prices.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#deals">Find Food Deals</a></li>
+                    <li><a href="#shops">Add Food Deal</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <a href="#" class="btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 IthuruFood. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
